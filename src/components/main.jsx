@@ -56,8 +56,9 @@ const getImage = () => {
     if (condition === "Clouds") return "/Images/pexels-pixabay-209831.jpg";
     if (condition === "Rain") return "/Images/valentin-muller-bWtd1ZyEy6w-unsplash (1).jpg";
     if (condition === "Snow")
-      return "/Images/b06f943926a83ec5b06a2071e25d680051ebd181.jpg";
-    if (condition === "Clear") return "/Images/jonathan-bowers-BqKdvJ8a5TI-unsplash.jpg";
+      return "/Images/aditya-vyas-PzhmEp_aDU4-unsplash.jpg";
+  if (condition === "Clear") return "/Images/grooveland-designs-zjoydJb17mE-unsplash.jpg";
+  if (condition === "Thunderstorm") return"/Images/max-larochelle-uu-Jw5SunYI-unsplash.jpg"
     return "/Images/jonathan-bowers-BqKdvJ8a5TI-unsplash.jpg";
   };
   const options = [
